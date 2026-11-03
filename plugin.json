@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "name": "Sáng Tác Việt",
+    "author": "Nam Quang",
+    "version": 1,
+    "source": "https://sangtacviet.xyz",
+    "regexp": "sangtacviet\\.(xyz|vip|app|com)/truyen/[^/]+/\\d+/[^/]+/?$",
+    "description": "Đọc truyện từ sangtacviet.xyz",
+    "locale": "vi_VN",
+    "language": "javascript",
+    "type": "novel"
+  },
+  "script": {
+    "home": "home.js",
+    "genre": "genre.js",
+    "detail": "detail.js",
+    "search": "search.js",
+    "toc": "toc.js",
+    "chap": "chap.js"
+  }
+}
